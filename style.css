@@ -1,0 +1,34 @@
+.header{
+    background-color: #8B1A2B;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+.header:hover{
+    background-color: #A52A2A;
+}
+.container{
+    float: right;
+    width: 250px;
+    background: #f5f5f5;
+    padding: 10px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.similar-authors{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+}
